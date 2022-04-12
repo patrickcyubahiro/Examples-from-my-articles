@@ -20,15 +20,15 @@ class Main {
   public static void main(String[] args) {
 
     // create an object of the subclass
-    JerryTheMouse labrador = new JerryTheMouse();
+    JerryTheMouse mouse = new JerryTheMouse();
 
     // access field of superclass
-    labrador.name = "Jerry";
-    labrador.display();
+    mouse.name = "Jerry";
+    mouse.display();
 
     // call method of superclass
     // using object of subclass
-    labrador.eat();
+    mouse.eat();
 
   }
 }
